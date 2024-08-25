@@ -27,7 +27,6 @@ jobs:
 
     - name: Release APK
       run: |
-        mv RabbitLauncher0517_Patched.apk $GITHUB_WORKSPACE
         git add RabbitLauncher0517_Patched.apk
         git commit -m "Release RabbitLauncher0517_Patched.apk"
         git push
