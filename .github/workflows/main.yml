@@ -24,9 +24,3 @@ jobs:
 
     - name: Run index.js
       run: node index.js
-
-    - name: Release APK
-      run: |
-        git add RabbitLauncher0517_Patched.apk
-        git commit -m "Release RabbitLauncher0517_Patched.apk"
-        git push
